@@ -9,10 +9,11 @@
 - Connected local `/home/noe/UX/Forza7` to GitHub remote
 - Transferred `sailgenius` (first app) to `forza7-dev` org
 
-### Up next
-- Enable GitHub Pages on `forza7` repo
-- Connect custom domain `forza7.dev`
-- Create basic site structure (`index.html`, CSS)
-- Plan website sections (Home, About, Products, Contact)
+### Up next — 2026-03-17
+- David to add DNS records in Namecheap for `forza7.dev` (GitHub Pages IPs + CNAME www)
+- Create `index.html` — basic homepage structure
+- Decide website sections (Home, About, Products/SailGenius, Contact)
+- Discuss visual style/vibe for the site (colors, fonts, mood)
+- Logo placeholder until Noe designs the real one
 
 ---
