@@ -18,6 +18,17 @@ export default defineNuxtConfig({
           content:
             'Forza7 builds exceptional digital products — apps, interfaces, and experiences crafted with purpose.',
         },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://forza7.dev' },
+        { property: 'og:title', content: 'Forza7 — Digital Product Studio' },
+        {
+          property: 'og:description',
+          content:
+            'Forza7 builds exceptional digital products — apps, interfaces, and experiences crafted with purpose.',
+        },
+        { property: 'og:image', content: 'https://forza7.dev/og-image.png' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: 'https://forza7.dev/og-image.png' },
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
