@@ -14,23 +14,23 @@ const services: Service[] = [
     iconBg: 'bg-coral-muted',
     title: 'Software Development',
     description:
-      'We build native and cross-platform apps with smooth, performant experiences. From MVP to full-scale product — we ship clean, maintainable code that scales.',
-    tags: ['iOS', 'Android', 'React Native', 'Flutter'],
+      'We build mobile, desktop, and web apps with clean, maintainable code. Every product we ship is fast, solid, and built to last.',
+    tags: ['Mobile', 'Desktop', 'API', 'Containers'],
   },
   {
     iconColor: 'text-teal',
     iconBg: 'bg-teal/10',
     title: 'UI/UX Design',
     description:
-      'Design that serves people first. We craft interfaces grounded in research, refined through iteration, and built to convert and delight.',
-    tags: ['User Research', 'Prototyping', 'Design Systems', 'Figma'],
+      'Design that serves people first. We craft interfaces grounded in research, refined through iteration, and built to feel effortless.',
+    tags: ['User Research', 'Prototyping', 'Design Systems'],
   },
   {
     iconColor: 'text-navy',
     iconBg: 'bg-sand-dark',
     title: 'Marco',
     description:
-      'Our in-house AI, fully integrated into the software we design and develop — not bolted on as an afterthought, but woven into the product from day one.',
+      'Our in-house AI, fully integrated into the software we design and develop. Not bolted on as an afterthought, but woven into the product from day one.',
     tags: ['AI', 'In-house', 'Integrated', 'Smart Features'],
   },
 ]
@@ -45,8 +45,11 @@ const services: Service[] = [
           What we do
         </p>
         <h2 class="font-display text-4xl md:text-5xl font-bold text-navy-dark max-w-xl leading-tight">
-          Services built around your product.
+          We build apps.
         </h2>
+        <p class="mt-4 text-navy-dark/60 text-lg max-w-xl leading-relaxed">
+          A small studio. We design, develop, and ship our own products from the ground up.
+        </p>
       </div>
 
       <!-- Cards grid -->

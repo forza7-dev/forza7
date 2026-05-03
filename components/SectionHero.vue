@@ -37,8 +37,8 @@
         <span class="text-gradient block">people love to use.</span>
       </h1>
       <p class="text-white/60 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light">
-        Forza7 is an independent digital product studio crafting apps and digital experiences —
-        from concept to launch.
+        Forza7 is an independent digital product studio crafting apps and digital experiences,
+        from idea to launch.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a
@@ -51,7 +51,7 @@
           href="#contact"
           class="px-8 py-4 rounded-full bg-teal text-white font-semibold hover:bg-teal-light transition-colors"
         >
-          Start a project
+          Get in touch
         </a>
       </div>
     </div>

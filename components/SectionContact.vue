@@ -22,11 +22,11 @@
     <div class="relative z-10 max-w-3xl mx-auto text-center">
       <p class="text-coral text-sm font-semibold uppercase tracking-[0.2em] mb-4">Contact</p>
       <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-        Got a project in mind?<br />
-        <span class="text-coral">Let's build it together.</span>
+        Want to know more?<br />
+        <span class="text-coral">Say hello.</span>
       </h2>
       <p class="text-white/50 text-lg mb-10">
-        Whether you have a fully-formed idea or just a rough concept — we'd love to hear from you.
+        We're always happy to hear from curious minds. Drop us a line anytime.
       </p>
       <a
         href="mailto:hello@forza7.dev"
