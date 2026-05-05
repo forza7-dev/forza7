@@ -1,8 +1,6 @@
 <script setup lang="ts">
 interface Service {
-  // Replace the icon slot below with your chosen SVG icon component
-  iconColor: string
-  iconBg: string
+  icon: string
   title: string
   description: string
   tags: string[]
@@ -10,24 +8,21 @@ interface Service {
 
 const services: Service[] = [
   {
-    iconColor: 'text-coral',
-    iconBg: 'bg-coral-muted',
+    icon: '/icons/icon-software-dev.svg',
     title: 'Software Development',
     description:
       'We build mobile, desktop, and web apps with clean, maintainable code. Every product we ship is fast, solid, and built to last.',
     tags: ['Mobile', 'Desktop', 'API', 'Containers'],
   },
   {
-    iconColor: 'text-teal',
-    iconBg: 'bg-teal/10',
+    icon: '/icons/icon-ux-design.svg',
     title: 'UI/UX Design',
     description:
       'Design that serves people first. We craft interfaces grounded in research, refined through iteration, and built to feel effortless.',
     tags: ['User Research', 'Prototyping', 'Design Systems'],
   },
   {
-    iconColor: 'text-navy',
-    iconBg: 'bg-sand-dark',
+    icon: '/icons/icon-marco-ai.svg',
     title: 'Marco',
     description:
       'Our in-house AI, fully integrated into the software we design and develop. Not bolted on as an afterthought, but woven into the product from day one.',
@@ -59,16 +54,7 @@ const services: Service[] = [
           :key="service.title"
           class="group bg-white rounded-2xl p-8 border border-sand-dark hover:border-coral/30 hover:shadow-xl transition-all duration-300"
         >
-          <!-- Icon slot — replace the SVG below with your chosen icon -->
-          <div
-            class="w-12 h-12 rounded-xl flex items-center justify-center mb-6"
-            :class="[service.iconBg, service.iconColor]"
-          >
-            <!-- TODO: replace with real icon -->
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
-              <rect x="3" y="3" width="18" height="18" rx="3" />
-            </svg>
-          </div>
+          <img :src="service.icon" alt="" class="w-[70px] h-[70px] mb-6" />
 
           <h3 class="font-display text-2xl font-semibold text-navy-dark mb-3">
             {{ service.title }}
