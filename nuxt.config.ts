@@ -9,22 +9,22 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Forza7 — Digital Product Studio',
+      title: 'Forza7 | Independent apps studio',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
           content:
-            'Forza7 builds exceptional digital products — apps, interfaces, and experiences crafted with purpose.',
+            'A small studio. We design, develop, and ship our own products from the ground up.',
         },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://forza7.dev' },
-        { property: 'og:title', content: 'Forza7 — Digital Product Studio' },
+        { property: 'og:title', content: 'Forza7 | Independent apps studio' },
         {
           property: 'og:description',
           content:
-            'Forza7 builds exceptional digital products — apps, interfaces, and experiences crafted with purpose.',
+            'A small studio. We design, develop, and ship our own products from the ground up.',
         },
         { property: 'og:image', content: 'https://forza7.dev/og-image.png' },
         { name: 'twitter:card', content: 'summary_large_image' },
