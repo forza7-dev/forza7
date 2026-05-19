@@ -33,7 +33,7 @@ export default {
         sea: '#90E0EF',
       },
       fontFamily: {
-        display: ['"Playfair Display"', 'Georgia', 'serif'],
+        display: ['"Marcellus"', 'Georgia', 'serif'],
         body: ['"DM Sans"', 'system-ui', 'sans-serif'],
       },
     },

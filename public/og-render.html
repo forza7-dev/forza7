@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=DM+Sans:wght@400;500&display=swap');
+    html, body { width: 1200px; height: 630px; overflow: hidden; }
+    body {
+      width: 1200px;
+      height: 630px;
+      background: #161F38;
+      font-family: 'DM Sans', sans-serif;
+      display: flex;
+      align-items: flex-start;
+      padding: 88px 112px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .wave {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+    .content { position: relative; z-index: 1; }
+
+    .mark {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      background: rgba(114,185,207,0.12);
+      border: 1px solid rgba(114,185,207,0.25);
+      border-radius: 18px;
+      margin-bottom: 36px;
+      text-align: center;
+      line-height: 80px;
+      font-family: 'Marcellus', serif;
+      font-weight: 700;
+      font-size: 30px;
+      letter-spacing: 0.025em;
+    }
+    .mark .f { color: #ffffff; }
+    .mark .seven { color: #72B9CF; }
+
+    .title {
+      font-family: 'Marcellus', serif;
+      font-weight: 700;
+      font-size: 80px;
+      color: #ffffff;
+      line-height: 1.05;
+      margin-bottom: 20px;
+      letter-spacing: 0.025em;
+    }
+    .title .seven { color: #72B9CF; }
+
+    .subtitle {
+      font-size: 26px;
+      font-weight: 400;
+      color: rgba(255,255,255,0.45);
+      margin-bottom: 28px;
+    }
+    .apps {
+      font-size: 22px;
+      font-weight: 500;
+      color: #CF8872;
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="mark"><span class="f">F</span><span class="seven">7</span></div>
+    <div class="title">Forza<span class="seven">7</span></div>
+    <div class="subtitle">Independent apps studio</div>
+    <div class="apps">SailGenius &nbsp;·&nbsp; Galley &nbsp;·&nbsp; ShipShape</div>
+  </div>
+  <svg class="wave" viewBox="0 0 1200 160" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,80 C300,144 900,16 1200,80 L1200,160 L0,160 Z" fill="#72B9CF" opacity="0.15"/>
+  </svg>
+</body>
+</html>

@@ -1,8 +1,8 @@
 <template>
   <footer class="bg-navy-dark border-t border-white/10 py-8 px-6 md:px-12">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-      <a href="#" class="font-display text-lg font-bold text-white">
-        Forza<span class="text-teal">7</span>
+      <a href="#">
+        <img src="/logo/forza7-marcellus-light.svg" alt="Forza7" class="h-6 w-auto" />
       </a>
       <p class="text-white/30 text-sm">
         &copy; {{ new Date().getFullYear() }} Forza7. All rights reserved.

@@ -26,8 +26,8 @@ const links = [
   >
     <nav class="max-w-7xl mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
       <!-- Logo -->
-      <a href="#" class="font-display text-xl font-bold text-white tracking-wide">
-        Forza<span class="text-teal">7</span>
+      <a href="#">
+        <img src="/logo/forza7-marcellus-light.svg" alt="Forza7" class="h-7 w-auto" />
       </a>
 
       <!-- Desktop links -->

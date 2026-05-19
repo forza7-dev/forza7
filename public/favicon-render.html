@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+    html, body { width: 512px; height: 512px; overflow: hidden; background: transparent; }
+    body { display: flex; align-items: center; justify-content: center; }
+    .mark {
+      width: 512px;
+      height: 512px;
+      background: #161F38;
+      border-radius: 102px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /* Render at nav size so Marcellus proportions are preserved, then scale up */
+    .inner {
+      font-family: 'Marcellus', serif;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 0.025em;
+      transform: scale(12);
+      transform-origin: center center;
+      white-space: nowrap;
+    }
+    .f { color: #ffffff; }
+    .seven { color: #72B9CF; }
+  </style>
+</head>
+<body>
+  <div class="mark">
+    <div class="inner"><span class="f">F</span><span class="seven">7</span></div>
+  </div>
+</body>
+</html>
