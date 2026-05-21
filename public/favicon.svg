@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="6" fill="#161F38"/>
-  <text x="16" y="24" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="18" font-weight="700">
-    <tspan fill="#ffffff">F</tspan><tspan fill="#72B9CF">7</tspan>
+  <text x="16" y="24" text-anchor="middle" font-family="'Marcellus', 'Times New Roman', Georgia, serif" font-size="18" font-weight="400">
+    <tspan fill="#72B9CF">F</tspan><tspan fill="#CF8872">7</tspan>
   </text>
 </svg>
