@@ -9,7 +9,7 @@
       </p>
       <div class="flex items-center gap-6">
         <a
-          href="https://github.com/Forza7"
+          href="https://github.com/forza7-dev"
           target="_blank"
           rel="noopener"
           class="text-white/40 hover:text-teal transition-colors text-sm"
