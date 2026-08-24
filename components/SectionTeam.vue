@@ -1,39 +1,9 @@
-<script setup lang="ts">
-interface Member {
-  name: string
-  role: string
-  bio: string
-  initials: string
-  color: string
-  photo?: string
-}
-
-const team: Member[] = [
-  {
-    name: 'Noe Giacari',
-    role: 'UX/UI Designer',
-    bio: '',
-    initials: 'NG',
-    color: 'bg-coral',
-    photo: '/Prof2.jpg',
-  },
-  {
-    name: 'David Coldeira',
-    role: 'Software Engineer',
-    bio: '',
-    initials: 'DC',
-    color: 'bg-teal',
-    photo: '/Dprof1.jpeg',
-  },
-]
-</script>
-
 <template>
   <section id="team" class="section-pad bg-white">
     <div class="max-w-7xl mx-auto">
 
       <!-- About + Mission/Vision -->
-      <div class="grid md:grid-cols-2 gap-16 mb-24">
+      <div class="grid md:grid-cols-2 gap-16">
         <!-- About -->
         <div>
           <p class="text-coral text-sm font-semibold uppercase tracking-[0.2em] mb-3">About us</p>
@@ -68,36 +38,6 @@ const team: Member[] = [
               A world where digital products are built with the same care and intention
               as the best physical crafts: built to last, built to matter.
             </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Team -->
-      <div>
-        <p class="text-coral text-sm font-semibold uppercase tracking-[0.2em] mb-3">The team</p>
-        <h3 class="font-display text-3xl font-bold text-navy-dark mb-10">
-          The people behind the work.
-        </h3>
-        <div class="grid sm:grid-cols-2 gap-8 max-w-2xl">
-          <div
-            v-for="member in team"
-            :key="member.name + member.role"
-            class="flex flex-col items-start"
-          >
-            <div class="w-24 h-24 rounded-2xl overflow-hidden mb-4" :class="!member.photo ? member.color : ''">
-              <img
-                v-if="member.photo"
-                :src="member.photo"
-                :alt="member.name"
-                class="w-full h-full object-cover object-top"
-              />
-              <span v-else class="w-full h-full flex items-center justify-center text-white font-display font-bold text-xl">
-                {{ member.initials }}
-              </span>
-            </div>
-            <h4 class="font-display text-xl font-semibold text-navy-dark">{{ member.name }}</h4>
-            <p class="text-coral text-sm font-medium mb-2">{{ member.role }}</p>
-            <p class="text-navy-dark/60 text-sm leading-relaxed">{{ member.bio }}</p>
           </div>
         </div>
       </div>
